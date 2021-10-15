@@ -154,20 +154,21 @@ Python中有很多内置函数，使用方法也各不相同。后面我会选�
   
 　内置函数
  
-　|--abs()--|	--delattr()--|--	hash()--|--	memoryview()--|--	set()--|
-　all()	dict()	help()	min()	setattr()
-　any()	dir()	hex()	next()	slicea()
-　ascii()	divmod()	id()	object()	sorted()
-　bin()	enumerate()	input()	oct()	staticmethod()
-　bool()	eval()	int()	open()	str()
-　breakpoint()	exec()	isinstance()	ord()	sum()
-　bytearray()	filter()	issubclass()	pow()	super()
-　bytes()	float()	iter()	print()	tuple()
-　callable()	format()	len()	property()	type()
-　chr()	frozenset()	list()	range()	vars()
-　classmethod()	getattr()	locals()	repr()	zip()
-　compile()	globals()	map()	reversed()	__import__()
-　complex()	hasattr()	max()	round()	 
+ |abs()|delattr()|hash()|memoryview()|set()|
+ |---|---|---|---|---|
+ |all()	dict()	help()	min()	setattr()
+　 |any()	 |dir() |	hex()	 |()	 |slicea() |
+　 |ascii()	 |divmod() |	id()	 | |object() |	sorted() |
+　 |bin()	 |enumerate() |	input()	 |()	 |staticmethod() |
+　 |bool()	 |eval()	 |int() |	open()	 |str() |
+　 |breakpoint()	 |()	isinstance()	 |ord() |	sum() |
+　 |bytearray()	 |filter() |issubclass()	 |pow()	 |super() |
+　 |bytes()	 |float()	 |iter() |	print()	 |tuple() |
+　 |callable() |	format() |	len()	 |property()	 |type() |
+　 |chr()	 |frozenset()	 |list()	 |range() |	vars() |
+　 |classmethod()	 |getattr()	 |locals()	 |repr()	zip() |
+　 |compile() |	globals()	 |map()	 |reversed()	 |__import__() |
+　 |complex()	 |hasattr()	 |max()	 |round()	  |
 
 　当然，有时候我们写的函数很多的时候，我们如何查找我编制的函数是否存在呢？我们可以用dir()函数进行检查。
 　Dir这个命令非常古老了，在没有window的年代，就是用这个命令查找文件的，而在很多的计算机语言当中，dir()函数功能可以说是一样的，也是用来查找文件的。
