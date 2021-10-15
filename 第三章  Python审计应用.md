@@ -122,24 +122,38 @@ Python中有很多内置函数，使用方法也各不相同。后面我会选�
 　def 函数名(参数1, 参数2, ……, 参数N):
 
 　    执行语句
+     
 　在执行语句的过程中，如果加上return，自定义就会立刻中断，将结果返回，如果没有return，就会继续执行。注意，输入冒号和回车之后，下一行会自动缩进。
+ 
 　我以永续年金作为例子，在会计学中，永续年金是指无限期收付款的年金，又称为永久年金，假设我成立了一项奖学金，每年要支出12万元，现时的折现率为10%，那么我的现值为多少呢？永续年金是没有终值的。
 　代码如下
+ 
 　def pvA(A, i):
     　p = A *  (1/ i)
     　return p
 　result = pvA(120000, 0.1)
 　print(result)
+ 
 　这个时候，我们就定义了一个永续年金的函数pvA，其中圆括号()的参数A表示年金，i表示折现率。
+ 
 　很多时候，我们在财务工作过程中需要创建一些自定义的函数，这个时候def定义函数就很有用了。定义完了之后，可以用Import语名进行加载。Import是一个非常重要的命令，也是很多计算机语言都有的命令。
+ 
 　我们如果只需要调用this库下的某个函数，我们可以用from XX import this这种语句。from XX import YY与单纯的improt是不同的，我举个例你就明白了，improt XX指的是将我的XX背包拿给我，from XX 　　import YY指的是将XX背包中的YY拿给我。
+ 
 　from modname import name1[, name2[, ... nameN]]
+ 
 　modname指的是库名称，
+ 
 　name1[, name2[, ... nameN]]指的是该库下的函数名称。
+ 
 　意思就是，我只加载了这个套武功下的某一招式，相对于加载全套武功，我只加载了某个招式，我的运功速度会加快很多。不过对于新手来说，我比较喜欢直接全套武功加载。
+ 
 　除此之外，python还有很多内置函数。
+ 
  　Python 3.x内置函数
+  
 　内置函数
+ 
 　abs()	delattr()	hash()	memoryview()	set()
 　all()	dict()	help()	min()	setattr()
 　any()	dir()	hex()	next()	slicea()
