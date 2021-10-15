@@ -156,7 +156,7 @@ Python中有很多内置函数，使用方法也各不相同。后面我会选�
  
  |abs()|delattr()|hash()|memoryview()|set()|
  |---|---|---|---|---|
- |all()	dict()	help()	min()	setattr()
+ |all() |	dict()	 |help()	 |min()	 |setattr() |
 　 |any()	 |dir() |	hex()	 |()	 |slicea() |
 　 |ascii()	 |divmod() |	id()	 | |object() |	sorted() |
 　 |bin()	 |enumerate() |	input()	 |()	 |staticmethod() |
